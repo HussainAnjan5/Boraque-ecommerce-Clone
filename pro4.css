@@ -1,0 +1,467 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'josefin sans';
+    scroll-behavior: smooth;
+}
+
+#container {
+    height: 140vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+#left-box {
+    height: 140vh;
+    width: 43%;
+    /* border: 2px solid green; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#left-box .top {
+    height: 20vh;
+    width: 45vh;
+    /* border: 2px solid orangered; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#left-box .top .boraque-img img {
+    height: 10vh;
+    width: 40vh;
+    /* border: 3px solid green; */
+}
+
+#left-box .top .span-element {
+    height: 6vh;
+    width: 43vh;
+    /* border: 3px solid green; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+#left-box .top .span-element span img {
+    height: .8vh;
+    width: .8vw;
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+}
+
+#form {
+    height: 115vh;
+    width: 85vh;
+    /* border: 2px solid orangered; */
+}
+
+#form input {
+    padding: 10px;
+    outline-color: rgb(11, 113, 182);
+}
+
+#form .contact {
+    height: 20vh;
+    width: 84vh;
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    line-height: 55px;
+    margin-top: 4%;
+}
+
+#form .contact p {
+    font-size: 1.5rem;
+}
+
+#form .contact input {
+    /* margin: 15px; */
+    height: 6vh;
+    width: 84vh;
+}
+
+#form .address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+    /* width: 84vh; */
+    /* border: 2px solid `orangered; */
+    margin: auto;
+    margin-top: 7%;
+}
+
+#form .address p {
+    font-size: 1.5rem;
+}
+
+#form .address select {
+    /* margin: 15px; */
+    height: 6vh;
+    width: 84vh;
+}
+
+#form .name {
+    display: flex;
+    width: 99%;
+    justify-content: space-between;
+}
+
+#form .name input {
+    /* border: 2px solid red; */
+    height: 6vh;
+    width: 41vh;
+}
+
+#form .addres input {
+    height: 7vh;
+    width: 84vh;
+}
+
+#form .Apartment input {
+    height: 6vh;
+    width: 84vh;
+}
+
+#form .City input {
+    height: 7vh;
+    width: 84vh;
+}
+
+#form .Phone input {
+    height: 7vh;
+    width: 84vh;
+}
+
+footer {
+    margin: auto;
+    width: 84vh;
+    height: 17vh;
+    display: flex;
+    /* border: 2px solid orangered; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#return {
+    height: 3vh;
+    width: 8vw;
+    /* border: 2px solid orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#return a {
+    color: rgb(11, 113, 182);
+    text-decoration: none;
+}
+
+#return img {
+    height: 1vh;
+    width: 1vw;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+#button-continue button {
+    height: 10vh;
+    width: 14vw;
+    border: none;
+    background-color: rgb(11, 113, 182);
+    color: white;
+    font-size: large;
+    border-radius: 10px;
+    border-color: rgb(11, 113, 182);
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.link {
+    width: 80%;
+    height: 7vh;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(11, 113, 182);
+}
+
+#right-box {
+    height: 140vh;
+    width: 45%;
+    /* border: 2px solid green; */
+    background-color: #FAFAFA;
+}
+
+#right-box .right-form {
+    height: 15vh;
+    margin-left: 7%;
+    width: 65%;
+    /* border: 2px solid green; */
+}
+
+#right-box .right-form:nth-child(3) {
+    /* border: 2px solid green; */
+    height: 25vh;
+    width: 65%;
+
+}
+
+#right-form1 {
+    display: flex;
+    margin-top: 10%;
+    height: 15vh;
+    width: 60%;
+    align-items: center;
+}
+
+#right-form1 .items-1 {
+    height: 10vh;
+    width: 8vw;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#right-form1 .items-1 img {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+}
+
+#right-form1 .items-2 {
+    height: 14vh;
+    width: 35vw;
+    /* border: 2px solid red; */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right-form1 .items-2 span {
+    margin-top: 5%;
+    color: grey;
+    font-size: small;
+}
+
+#right-form1 .items-3 {
+    height: 14vh;
+    width: 15vw;
+    /* border: 2px solid red; */
+    padding: 5px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#right-form1 .items-3 {
+    font-size: 1.1rem;
+    font-style: normal;
+}
+
+#right-form2 {
+    display: flex;
+    height: 10vh;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#right-form2 .input-apply input {
+    display: flex;
+    height: 6vh;
+    width: 21vw;
+    align-items: center;
+    outline-color: rgb(11, 113, 182);
+    font-size: 1.5rem;
+}
+
+#right-form2 .apply button {
+    height: 6vh;
+    width: 6vw;
+    border-radius: 8px;
+    border: 1px solid slategrey;
+    background-color: slategrey;
+    cursor: pointer;
+    color: white;
+}
+
+#right-form2 .apply button:hover {
+    background-color: rgb(11, 113, 182);
+    border: none;
+}
+
+#right-form3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#right-form3 .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+    /* border: 2px solid orangered; */
+}
+
+#right-form3 .ship {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: vh;
+    /* border: 2px solid orangered; */
+}
+
+#right-form3 .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    /* border: 2px solid orangered; */
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-family: Lato, sans-serif;
+    }
+
+    #container {
+        height: 200vh;
+        justify-content: flex-start;
+    }
+
+    #left-box {
+        height: auto;
+        width: 100%;
+        /* border: 2px solid red;   */
+    }
+
+    #right-box {
+        display: none;
+    }
+
+    #left-box .top {
+        height: 20vh;
+        width: 100%;
+    }
+    
+    #left-box .top .span-element {
+        justify-content: flex-start;
+        height: 10vh;
+        width: 80%;
+        margin: 0;
+    }
+    #left-box .top .boraque-img{
+        /* border: 2px solid orange; */
+        justify-content: flex-start;
+        width: 80%;
+    }
+    #left-box .top .span-element span img {
+        height: 2vh;
+        width: 1vw;
+        justify-content: flex-start;
+    }
+    #form{
+        width: 85%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #form .contact {
+        height: 40vh;
+        width: 100%;
+        padding: 0%;
+    }
+    #form .contact input {
+        width: 100%;
+    }
+    #form .address {
+        margin-top: 3%;
+        height: 80vh;
+    }
+    #form .address{
+        margin-top: 0;
+        width: 100%;
+    }
+    #form .address select {
+      width:100%;
+    }
+    #form input {
+        padding: 10px;
+        outline-color: rgb(11, 113, 182);
+    }
+    #form .name input {
+        width: 62vh;
+    }
+    #form .addres input {
+        width:100%;
+
+    }
+    
+    #form .Apartment input {
+        width:100%;
+    }
+    
+    #form .City input {
+        width:100%;
+    }
+    
+    #form .Phone input {
+        width:100%;
+    }
+    footer {
+        flex-direction: column-reverse;
+        height: 20vh;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    #button-continue button {
+        height: 13vh;
+        width: 34vw;
+    }    
+    #return {
+        width: 15vw;
+    }
+
+    .link {
+
+        height: 5vh;
+        width: 100vw;
+    }
+}
